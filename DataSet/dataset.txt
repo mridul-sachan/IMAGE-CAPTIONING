@@ -1,0 +1,8 @@
+
+I'm using Flickr 8k dataset to generate an image caption model. 
+
+You can download the dataset from University of Illinios webpage by filling a simple form in the below URL.
+https://forms.illinois.edu/sec/1713398
+
+
+
