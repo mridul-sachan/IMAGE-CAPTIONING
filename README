@@ -1,0 +1,29 @@
+This project contains image captioning module using VGG-16 Model. 
+
+
+The project can be divided into below parts:
+1. DataSet Collection
+
+We have used standard Flickr8K dataset. It Contains 8092 photographs in JPEG format.
+
+Contains a five  descriptions for each photograph.
+
+It has a pre-defined - training dataset(6,000 images), development dataset(1,000 images) and test dataset(1,000 images).
+
+
+2. Feature Extraction
+
+Features of each photograph is extracted using pre-trained VGG-16 model using Tensorflow and keras.
+
+
+3. Developing a Model
+
+We are going to train the Model on all of the photos & captions in the training dataset.
+The model we will develop will generate a caption, given a photo as Input, and the caption will be generated one word at a time
+
+
+4. Evaluating the Model
+
+BLEU scores are used in text translation for evaluating translated text against one or more reference translations.
+The BLEU metric scores a translation on a scale of 0 to 1, but is frequently displayed as a percentage value. 
+The closer to 1, the more the translation correlates to a human translation
